@@ -5,12 +5,11 @@ def przelicz(n=""):
     'szesnascie':16, 'siedemnascie':17, 'osiemnascie':18, 'dziewistnascie':19,
      'dwadziescia':20, 'trzydziesci':30, 'czterdziesci':40, 'piecdziesiat':50,}
 
-     #l=n.split()
-     #s=0
-    # for x in l:
-        # if x in w:
-            # s+=w[x]
-            # return s
-t=raw_input("Wpisz liczbe od 1 do 59:")
-print ("Wartosc:")
-przelicz(t)
+    l=n.split()
+    s=0
+    for x in l:
+        if x in w:
+            s+=w[x]
+            return s
+t=input("Wpisz liczbe od 1 do 59:")
+print ("Wartosc:", przelicz(t))
