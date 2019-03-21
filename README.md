@@ -1,3 +1,1 @@
-# hello-world
-
-A few things to warm up ;)
+# A few things to warm up ;)
