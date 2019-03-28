@@ -1,4 +1,5 @@
 import random, string
-napis= input()
+napis= input("Enter message:")
+key= input("Enter the key:")
 for letter in list(napis):
-    print(chr(int(ord(letter)) + int(1)))
+    print(chr(int(ord(letter)) + int(key)),end='')
